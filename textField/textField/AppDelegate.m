@@ -17,7 +17,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.111111
-    nsl.....
+    NSLog(@"这是主干的源码");
     return YES;
 }
 
