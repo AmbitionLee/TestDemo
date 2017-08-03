@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="k7d-yD-CvS" customClass="PDAAddGoodsName">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jqf-Ui-yJz">
+                    <rect key="frame" x="5" y="0.0" width="365" height="39"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xuQ-Ju-141">
+                    <rect key="frame" x="164.5" y="7" width="46" height="30"/>
+                    <state key="normal" title="Button"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.94117647058823528" green="0.93725490196078431" blue="0.96078431372549022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="jqf-Ui-yJz" secondAttribute="bottom" constant="5" id="DCm-rp-o5x"/>
+                <constraint firstItem="jqf-Ui-yJz" firstAttribute="leading" secondItem="k7d-yD-CvS" secondAttribute="leading" constant="5" id="Oyv-P2-FlY"/>
+                <constraint firstAttribute="trailing" secondItem="jqf-Ui-yJz" secondAttribute="trailing" constant="5" id="TjQ-kj-LO6"/>
+                <constraint firstItem="jqf-Ui-yJz" firstAttribute="top" secondItem="k7d-yD-CvS" secondAttribute="top" id="d27-4G-gk1"/>
+                <constraint firstItem="xuQ-Ju-141" firstAttribute="centerX" secondItem="k7d-yD-CvS" secondAttribute="centerX" id="fDG-bv-Q4z"/>
+                <constraint firstItem="xuQ-Ju-141" firstAttribute="centerY" secondItem="k7d-yD-CvS" secondAttribute="centerY" id="jEA-Px-m3F"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="goodsName" destination="xuQ-Ju-141" id="oun-On-877"/>
+            </connections>
+            <point key="canvasLocation" x="-710.5" y="53"/>
+        </view>
+    </objects>
+</document>
