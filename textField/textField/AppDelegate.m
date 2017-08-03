@@ -18,6 +18,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.111111
     NSLog(@"这是主干的源码");
+    NSLog(@"分支1?");
     return YES;
 }
 
